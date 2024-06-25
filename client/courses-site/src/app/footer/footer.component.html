@@ -1,0 +1,41 @@
+<footer id="footer">
+  <div class="footer__container">
+      <div class="footer_about">
+          <div style="display: flex; align-items: center;">
+              <div style="border-radius: 50%; overflow: hidden; width: 10%; max-width: 100vw; margin-left: 2%;">
+                  <img src="../../assets/images/1.jpg"
+                      style="width: 100%;" alt="" loading="lazy">
+              </div>
+              <span style="margin-left: 10px;">Coursera</span>
+          </div>
+          <p>Here you can find a wide range of professional courses in all the leading and in-demand programming languages. Whether you are a beginner looking to learn the basics or an experienced programmer aiming to deepen your knowledge and acquire new skills, we have the perfect course for you.</p>
+      </div>
+      <div class="employees__categories">
+          <p>CATEGORIES</p>
+          <br>
+          <div class="categories">
+              <ul>
+                  <li> <a routerLink="/home" routerLinkActive="active"><b> Home Page</b></a></li>
+                  <li> <a routerLink="/courses"><b> all courses</b></a></li>
+                  <li> <a routerLink="/add"><b>add course</b> </a></li>
+                  <li> <a routerLink="courses/edit"><b>edit course</b> </a></li>
+                  <li> <a routerLink="user/register"><b> register</b></a></li>
+                  <li> <a routerLink="user/logout" routerLinkActive="active" *ngIf="connect()">>Logout</a></li>
+              </ul>
+          </div>
+      </div>
+ 
+  </div>
+  <div class="copyright">
+      <p>&#169; 2024 Coursera. this a site built by  Yehudit Ashlag.</p>
+       <div class="share">
+            <div><mat-icon>facebook</mat-icon></div>
+            <div><mat-icon>linkedin</mat-icon></div>
+            <div><mat-icon>twitter</mat-icon></div>
+            <div><mat-icon>instagram</mat-icon></div>
+            <div><mat-icon>whatsapp</mat-icon></div>
+         
+        </div>
+  </div>
+  
+</footer>

@@ -1,0 +1,93 @@
+/* .all {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.cust {
+    width: 300px;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    text-align: center;
+}
+
+h3 {
+    margin: 10px 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+button {
+    margin: 5px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: gray;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: black;
+}
+
+svg {
+    vertical-align: middle;
+    margin-right: 5px;
+    fill: currentColor;
+}
+.glowing {
+    
+    box-shadow: 0 0 15px rgba(150, 18, 38, 0.5);
+  } */
+
+  .container {
+    margin-top: 20px;
+  }
+  
+  .filter-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+    display: flex;
+
+
+
+  }
+  
+  .all-courses {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .course-card {
+    transition: transform 0.2s;
+    width: calc(33.33% - 20px); /* רוחב של כל כרטיס קורס עם שורות באורך 3 */
+    margin-bottom: 20px; /* מרווח בין השורות */
+  }
+  
+  .course-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .course-image {
+    background-color: #ccc;
+  }
+  
+  .glowing {
+    border: 2px solid #ff4081;
+  }
+  
